@@ -41,40 +41,46 @@
                     </li>
 
                 </ul>
-
             </div>
         </div>
     </nav>
-    <!-- Carousal -->
-    <div class="container-fluid d-flex justify-content-center mt-5">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="width: 800px;">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://www.shutterstock.com/shutterstock/photos/2229009565/display_1500/stock-vector-we-re-hiring-web-banner-with-d-glossy-shouting-megaphone-phone-text-join-us-and-buttons-green-2229009565.jpg"
-                        class="d-block w-100 rounded" alt="...">
+    <div class="main">
+        <div class="container-fluid">
+            <div class="heading ms-md-5 mt-4">
+                    <h3>Find your dream <br><span style="color: green;">Job Now</span></h3>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://www.shutterstock.com/shutterstock/photos/2229567123/display_1500/stock-vector-we-re-hiring-web-banner-with-d-glossy-shouting-megaphone-text-and-buttons-bright-landing-page-2229567123.jpg"
-                        class="d-block w-100 rounded" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://www.shutterstock.com/shutterstock/photos/2370977855/display_1500/stock-vector-template-of-black-friday-advertising-banner-with-super-sale-countdown-and-realistic-shouting-2370977855.jpg"
-                        class="d-block w-100 rounded" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
+        <!-- Carousal -->
+        <div class="container-fluid d-flex justify-content-center mt-5">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="width: 800px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.shutterstock.com/shutterstock/photos/2229009565/display_1500/stock-vector-we-re-hiring-web-banner-with-d-glossy-shouting-megaphone-phone-text-join-us-and-buttons-green-2229009565.jpg"
+                            class="d-block w-100 rounded" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.shutterstock.com/shutterstock/photos/2229567123/display_1500/stock-vector-we-re-hiring-web-banner-with-d-glossy-shouting-megaphone-text-and-buttons-bright-landing-page-2229567123.jpg"
+                            class="d-block w-100 rounded" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.shutterstock.com/shutterstock/photos/2370977855/display_1500/stock-vector-template-of-black-friday-advertising-banner-with-super-sale-countdown-and-realistic-shouting-2370977855.jpg"
+                            class="d-block w-100 rounded" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
     </div>
-
 
     <!-- Jobs -->
     <section class="py-5 bg-light mt-5">
@@ -129,6 +135,30 @@
                         </div>
                     </div>
                 </div>
+                <!-- Job: CAD Designer -->
+                <div class="col-md-6 job-card" data-category="design"
+                    data-keywords="cad designer">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">CAD Designer</h5>
+                            <p class="card-text">Jewellery Designing</p>
+                            <p class="text-muted"><i class="bi bi-geo-alt"></i> Irinjalakkuda,Thrissur</p>
+                           <button 
+    type="button" 
+    class="btn btn-outline-primary btn-sm view-details-btn"
+    data-bs-toggle="modal" 
+    data-bs-target="#jobDetailsModal"
+    data-title="Frontend Developer"
+    data-location="Remote"
+    data-description="Work with React and Bootstrap to build user-friendly interfaces."
+    data-responsibilities="<ul><li>Develop UI components</li><li>Ensure responsiveness</li></ul>"
+    data-requirements="<ul><li>Proficiency in React</li><li>Experience with Bootstrap</li></ul>"
+>
+    View Details
+</button>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Job: UI/UX Designer -->
                 <div class="col-md-6 job-card" data-category="design"
@@ -138,7 +168,19 @@
                             <h5 class="card-title">UI/UX Designer</h5>
                             <p class="card-text">Create seamless user experiences for our web and mobile apps.</p>
                             <p class="text-muted"><i class="bi bi-geo-alt"></i> Remote</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+                            <button 
+    type="button" 
+    class="btn btn-outline-primary btn-sm view-details-btn"
+    data-bs-toggle="modal" 
+    data-bs-target="#jobDetailsModal"
+    data-title="Frontend Developer"
+    data-location="Remote"
+    data-description="Work with React and Bootstrap to build user-friendly interfaces."
+    data-responsibilities="<ul><li>Develop UI components</li><li>Ensure responsiveness</li></ul>"
+    data-requirements="<ul><li>Proficiency in React</li><li>Experience with Bootstrap</li></ul>"
+>
+    View Details
+</button>
                         </div>
                     </div>
                 </div>
@@ -152,10 +194,46 @@
                             <p class="card-text">Drive online visibility and growth through paid and organic channels.
                             </p>
                             <p class="text-muted"><i class="bi bi-geo-alt"></i> San Francisco, CA</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+                            <button type="button" class="btn btn-outline-primary btn-sm view-details-btn"
+                                data-bs-toggle="modal" data-bs-target="#jobDetailsModal" data-title="Frontend Developer"
+                                data-location="Remote"
+                                data-description="Work with React and Bootstrap to build user-friendly interfaces."
+                                data-responsibilities="<ul><li>Develop UI components</li><li>Ensure responsiveness</li></ul>"
+                                data-requirements="<ul><li>Proficiency in React</li><li>Experience with Bootstrap</li></ul>"
+                                data-apply-url="https://yourcompany.com/jobs/frontend-developer">
+                                
+                                View Details
+                            </button>
                         </div>
                     </div>
                 </div>
+                <!-- Reusable Modal -->
+                <div class="modal fade" id="jobDetailsModal" tabindex="-1" aria-labelledby="jobDetailsModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="jobDetailsModalLabel"></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><strong>Location:</strong> <span id="jobLocation"></span></p>
+                                <p><strong>Description:</strong></p>
+                                <p id="jobDescription"></p>
+                                <p><strong>Responsibilities:</strong></p>
+                                <div id="jobResponsibilities"></div>
+                                <p><strong>Requirements:</strong></p>
+                                <div id="jobRequirements"></div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <a href="#" class="btn btn-primary" id="applyButton" target="_blank">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -199,7 +277,7 @@
 
             <div class="text-center text-muted">
                 &copy; 2025 Insight Careers | All rights reserved | Designed By <a href="https://theaitsolutions.net/"
-                    style="color: rgb(77, 77, 184);" style="text-decoration:none;">Thea IT Solutions</a>
+                    style="color: rgb(77, 77, 184);">Thea IT Solutions</a>
             </div>
         </div>
     </footer>
@@ -234,7 +312,26 @@
 
         // Initialize
         filterJobs();
+        //modal
+         document.addEventListener('DOMContentLoaded', function () {
+    const buttons = document.querySelectorAll('.view-details-btn');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', function () {
+        document.getElementById('jobDetailsModalLabel').textContent = this.getAttribute('data-title');
+        document.getElementById('jobLocation').textContent = this.getAttribute('data-location');
+        document.getElementById('jobDescription').textContent = this.getAttribute('data-description');
+        document.getElementById('jobResponsibilities').innerHTML = this.getAttribute('data-responsibilities') || "<p>Details not provided.</p>";
+        document.getElementById('jobRequirements').innerHTML = this.getAttribute('data-requirements') || "<p>Details not provided.</p>";
+        
+        // Set Apply button link
+        const applyUrl = this.getAttribute('data-apply-url') || "#";
+        document.getElementById('applyButton').setAttribute('href', applyUrl);
+      });
+    });
+  });
     </script>
-  <script src="/js/index.js"></script>
+    <script src="/js/index.js"></script>
 </body>
+
 </html>
