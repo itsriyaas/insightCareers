@@ -27,6 +27,11 @@
   .carousel-item img{
       height: 350px;
   }
+ @media (max-width: 768px) {
+	.carousel-item img{
+      height: 200px;
+  }
+}
 </style>
 <body>
     <!-- Navbar -->
@@ -121,7 +126,16 @@
                             <h5 class="card-title">Frontend Developer</h5>
                             <p class="card-text">Work with React and Bootstrap to build user-friendly interfaces.</p>
                             <p class="text-muted"><i class="bi bi-geo-alt"></i> Remote</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+                            <a href="#" class="btn btn-outline-primary btn-sm"
+                             type="button" 
+    class="btn btn-outline-primary btn-sm view-details-btn"
+    data-bs-toggle="modal" 
+    data-bs-target="#jobDetailsModal"
+    data-title="Frontend Developer"
+    data-location="Remote"
+    data-description="Work with React and Bootstrap to build user-friendly interfaces."
+    data-responsibilities="<ul><li>Develop UI components</li><li>Ensure responsiveness</li></ul>"
+    data-requirements="<ul><li>Proficiency in React</li><li>Experience with Bootstrap</li></ul>">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -134,7 +148,16 @@
                             <h5 class="card-title">Backend Developer</h5>
                             <p class="card-text">Build scalable APIs using Node.js and PostgreSQL.</p>
                             <p class="text-muted"><i class="bi bi-geo-alt"></i> New York, NY</p>
-                            <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+                            <a href="#" class="btn btn-outline-primary btn-sm"
+                             type="button" 
+    class="btn btn-outline-primary btn-sm view-details-btn"
+    data-bs-toggle="modal" 
+    data-bs-target="#jobDetailsModal"
+    data-title="Frontend Developer"
+    data-location="Remote"
+    data-description="Work with React and Bootstrap to build user-friendly interfaces."
+    data-responsibilities="<ul><li>Develop UI components</li><li>Ensure responsiveness</li></ul>"
+    data-requirements="<ul><li>Proficiency in React</li><li>Experience with Bootstrap</li></ul>">View Details</a>
                         </div>
                     </div>
                 </div>
