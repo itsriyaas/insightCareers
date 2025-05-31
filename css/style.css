@@ -92,3 +92,14 @@ input{
         flex-direction: column;
     }
 }
+.carousel-item img{
+  height: 440px;
+}
+.credits{
+  color: blue;
+  text-decoration: none;
+}
+.credits:hover{
+   color: rgb(0, 0, 0);
+   text-decoration: underline;
+}
